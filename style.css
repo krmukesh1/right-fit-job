@@ -48,7 +48,6 @@ img {
   background: #fff;
 }
 button.btn.btn-primary {
-  /* margin: auto; */
   width: 100%;
   border: 1px solid #17bebb !important;
   background-color: #17bebb !important;
@@ -143,7 +142,6 @@ ul.why {
   font-size: 14px;
   color: rgba(43, 43, 43, 255);
   text-align: left;
-  /* line-height: 19px; */
 }
 #section_fit2 .images {
   height: auto;
