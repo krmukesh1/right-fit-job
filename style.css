@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "stddemi-font";
+  src: url("./fonts/ITCAvantGardeStdDemi.otf");
+}
+
+@font-face {
+  font-family: "stdmedium-font";
+  src: url("./fonts/ITCAvantGardeStdMd.otf");
+}
+
+@font-face {
+  font-family: "stdbook-font";
+  src: url("./fonts/ITCAvantGardeStdBk.otf");
+}
 img {
   max-width: 100%;
 }
@@ -66,14 +80,14 @@ button.btn.btn-primary {
 .rec_talent {
   font-family: ITCAvantGardeStd-Bk, ﻿ITCAvantGardeStd-Bk, ﻿AdobeInvisFont,
     ﻿MyriadPro-Regular;
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(43, 43, 43, 255);
   text-align: left;
 }
 .card-body .card-text {
   font-family: ITCAvantGardeStd-Bk, ﻿ITCAvantGardeStd-Bk, ﻿AdobeInvisFont,
     ﻿MyriadPro-Regular;
-  font-size: 16px;
+  font-size: 14px;
   color: rgba(43, 43, 43, 255);
   text-align: center;
 }
@@ -82,13 +96,25 @@ button.btn.btn-primary {
   width: 50%;
   margin-left: 170px;
 }
+#card_1 {
+  padding-right: 88px;
+}
 .content {
   text-align: center;
   width: 70%;
   margin-left: 160px;
 }
+.content h4 {
+  font-size: 26px;
+
+  font-family: "stddemi-font";
+}
+.content h5 {
+  font-family: "stddemi-font";
+}
 .content p {
   font-size: 12px;
+  font-family: "stdmedium-font";
 }
 
 .d-flex.flex-row {
@@ -103,8 +129,21 @@ button.btn.btn-primary {
   margin-bottom: -1px;
   margin-right: 50px;
 }
+
 ul.why {
   margin-left: 160px;
+}
+.why h4 {
+  margin-bottom: 30px;
+  font-family: "stddemi-font";
+}
+.rec_talent {
+  font-family: ITCAvantGardeStd-Bk, ﻿ITCAvantGardeStd-Bk, ﻿AdobeInvisFont,
+    ﻿MyriadPro-Regular;
+  font-size: 14px;
+  color: rgba(43, 43, 43, 255);
+  text-align: left;
+  /* line-height: 19px; */
 }
 #section_fit2 .images {
   height: auto;
@@ -139,6 +178,9 @@ p.card-text {
 .heading {
   text-align: center;
   padding-right: 45% !important;
+}
+.heading h4 {
+  font-family: "stddemi-font";
 }
 /* mobile Responsive */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
@@ -190,6 +232,9 @@ p.card-text {
     margin-top: 50px;
     margin-left: 40px;
     margin-bottom: 50px;
+  }
+  #card_1 {
+    padding-right: 0px;
   }
 }
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
@@ -247,6 +292,9 @@ p.card-text {
     margin-left: 90px;
     margin-bottom: 50px;
   }
+  #card_1 {
+    padding-right: 15px;
+  }
 }
 @media only screen and (min-device-width: 767px) and (max-device-width: 1023px) {
   #section_fit1 {
@@ -298,6 +346,9 @@ p.card-text {
     margin-top: 50px;
     margin-left: 110px;
     margin-bottom: 50px;
+  }
+  #card_1 {
+    padding-right: 15px;
   }
 }
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1040px) {
