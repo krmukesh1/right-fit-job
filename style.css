@@ -477,7 +477,8 @@ p.card-text {
     font-size: 25px;
   }
   ul.why {
-    margin-left: 101px;
+    margin-left: 150px;
+    margin-top: 50px;
   }
   .why h4 {
     margin-bottom: 30px;
@@ -491,7 +492,7 @@ p.card-text {
   #section_fit2 .images {
     height: auto;
     width: 100%;
-    margin-left: 2px;
+    margin-left: 11px;
     margin-bottom: -48px;
   }
   .heading h4 {
