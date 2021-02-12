@@ -200,7 +200,7 @@ p.card-text {
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
-    padding: 0;
+    padding: 15px;
     background: #fff;
   }
   .content {
