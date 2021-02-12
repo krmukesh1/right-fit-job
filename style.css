@@ -442,10 +442,10 @@ p.card-text {
   .form-control,
   .form-select {
     display: block;
-    margin: 5px 0;
+    margin: 3px 0;
     width: 100%;
-    padding: 1rem 0.75rem !important;
-    font-size: 1.4rem !important;
+    padding: 0.5rem 0.75rem !important;
+    font-size: 1rem !important;
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
@@ -471,7 +471,10 @@ p.card-text {
   .demo {
     border-bottom: 3px solid#17bebb;
     margin-bottom: -1px;
-    margin-right: 125px;
+    margin-right: 100px;
+  }
+  .d-flex.flex-row h4 {
+    font-size: 25px;
   }
   ul.why {
     margin-left: 101px;
