@@ -440,7 +440,7 @@ p.card-text {
   }
   #forms {
     height: auto;
-    width: 25%;
+    width: 23%;
     /* margin: auto; */
     margin-top: 20px;
     margin-right: auto;
@@ -479,13 +479,18 @@ p.card-text {
   .demo {
     border-bottom: 3px solid#17bebb;
     margin-bottom: -1px;
-    margin-right: 140px;
+    margin-right: 175px;
   }
   #section_fit3 .images {
     height: auto;
     width: 50%;
     margin-top: 50px;
     margin-left: 220px;
+  }
+  .d-flex.flex-row h4 {
+    font-size: 0.9rem;
+    font-family: "stdbook-font";
+    font-weight: 600;
   }
   ul.why {
     margin-left: 250px;
