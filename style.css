@@ -524,4 +524,10 @@ p.card-text {
   #card_1 {
     padding-right: 185px;
   }
+  .d-flex.flex-row {
+    border-bottom: 1px solid #2b2b2b;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-family: "stdbook-font";
+  }
 }
