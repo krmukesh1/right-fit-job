@@ -440,7 +440,7 @@ p.card-text {
   }
   #forms {
     height: auto;
-    /* width: 40%; */
+    width: 25%;
     /* margin: auto; */
     margin-top: 20px;
     margin-right: auto;
@@ -479,7 +479,7 @@ p.card-text {
   .demo {
     border-bottom: 3px solid#17bebb;
     margin-bottom: -1px;
-    margin-right: 170px;
+    margin-right: 140px;
   }
   #section_fit3 .images {
     height: auto;
