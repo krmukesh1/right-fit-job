@@ -38,7 +38,7 @@ img {
 }
 #forms {
   height: auto;
-  width: 25%;
+  width: 27%;
   margin: auto;
   margin-top: auto;
   margin-right: auto;
@@ -52,6 +52,11 @@ button.btn.btn-primary {
   width: 100%;
   border: 1px solid #17bebb !important;
   background-color: #17bebb !important;
+  font-weight: 600;
+  font-family: "stdbook-font";
+}
+.form-check {
+  font-size: 12px;
 }
 .form-control:focus {
   color: #212529;
@@ -87,9 +92,10 @@ button.btn.btn-primary {
 .card-body .card-text {
   font-family: ITCAvantGardeStd-Bk, ﻿ITCAvantGardeStd-Bk, ﻿AdobeInvisFont,
     ﻿MyriadPro-Regular;
-  font-size: 14px;
   color: rgba(43, 43, 43, 255);
   text-align: center;
+  font-size: 12px;
+  font-family: "stdmedium-font";
 }
 #section_fit1 .images {
   height: auto;
@@ -122,13 +128,13 @@ button.btn.btn-primary {
   margin-bottom: 10px;
 }
 .d-flex.flex-row h4 {
-  font-size: 15px;
+  font-size: 1.2rem;
   font-family: "stdbook-font";
 }
 .demo {
   border-bottom: 3px solid#17bebb;
   margin-bottom: -1px;
-  margin-right: 50px;
+  margin-right: 20px;
 }
 
 ul.why {
@@ -136,14 +142,16 @@ ul.why {
 }
 .why h4 {
   margin-bottom: 30px;
+  font-size: 26px;
   font-family: "stddemi-font";
 }
 .rec_talent {
   font-family: ITCAvantGardeStd-Bk, ﻿ITCAvantGardeStd-Bk, ﻿AdobeInvisFont,
     ﻿MyriadPro-Regular;
-  font-size: 14px;
   color: rgba(43, 43, 43, 255);
   text-align: left;
+  font-size: 12px;
+  font-family: "stdmedium-font";
 }
 #section_fit2 .images {
   height: auto;
@@ -180,6 +188,7 @@ p.card-text {
   padding-right: 45% !important;
 }
 .heading h4 {
+  font-size: 26px;
   font-family: "stddemi-font";
 }
 /* mobile Responsive */
@@ -419,9 +428,7 @@ p.card-text {
     font-family: "stddemi-font";
     font-size: 30px;
   }
-  .d-flex.flex-row h4 {
-    font-size: 1.2rem;
-  }
+
   .content p {
     font-size: 14px;
     font-family: "stdmedium-font";
@@ -472,7 +479,7 @@ p.card-text {
   .demo {
     border-bottom: 3px solid#17bebb;
     margin-bottom: -1px;
-    margin-right: 125px;
+    margin-right: 170px;
   }
   #section_fit3 .images {
     height: auto;
@@ -509,5 +516,9 @@ p.card-text {
   .card-body .card-text {
     font-size: 16px;
     font-family: "stdmedium-font";
+  }
+  .bac_fit2 {
+    background: #17bebb;
+    padding: 50px 50px 35px 50px;
   }
 }
