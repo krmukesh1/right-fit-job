@@ -417,7 +417,7 @@ p.card-text {
   }
   .content {
     text-align: center;
-    width: 70%;
+    width: 50%;
     margin-left: 151px;
   }
   .content h4 {
@@ -436,7 +436,7 @@ p.card-text {
   #section_fit1 .images {
     height: auto;
     width: 50%;
-    margin-left: 250px;
+    margin-left: 220px;
   }
   #forms {
     height: auto;
@@ -483,9 +483,9 @@ p.card-text {
   }
   #section_fit3 .images {
     height: auto;
-    width: 60%;
+    width: 50%;
     margin-top: 50px;
-    margin-left: 250px;
+    margin-left: 220px;
   }
   ul.why {
     margin-left: 250px;
@@ -520,5 +520,8 @@ p.card-text {
   .bac_fit2 {
     background: #17bebb;
     padding: 50px 50px 35px 50px;
+  }
+  #card_1 {
+    padding-right: 185px;
   }
 }
