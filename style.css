@@ -57,6 +57,9 @@ button.btn.btn-primary {
 }
 .form-check {
   font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: "stdbook-font";
 }
 .form-control:focus {
   color: #212529;
@@ -81,6 +84,18 @@ button.btn.btn-primary {
   background-color: #0b5ed7;
   border-color: #0a58ca;
   box-shadow: none !important;
+}
+input#inputEmail4,
+input.form-control,
+input#build,
+input#builds,
+select.form-select,
+option::placeholder {
+  font-size: 14px !important;
+  font-family: "stdbook-font";
+}
+.form-select {
+  color: #616161 !important;
 }
 .rec_talent {
   font-family: ITCAvantGardeStd-Bk, ﻿ITCAvantGardeStd-Bk, ﻿AdobeInvisFont,
