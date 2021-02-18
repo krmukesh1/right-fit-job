@@ -30,7 +30,7 @@ img {
 }
 .bac_fit2 {
   background: #17bebb;
-  padding: 50px;
+  padding: 50px 50px 0px 50px;
 }
 .bac_fit3 {
   background: #eaf2ef;
@@ -38,7 +38,7 @@ img {
 }
 #forms {
   height: auto;
-  width: 27%;
+  width: 25%;
   margin: auto;
   margin-top: auto;
   margin-right: auto;
@@ -117,6 +117,9 @@ option::placeholder {
   width: 50%;
   margin-left: 170px;
 }
+p.card-text.card-text1 {
+  margin-top: 30px;
+}
 #card_1 {
   padding-right: 88px;
 }
@@ -143,13 +146,13 @@ option::placeholder {
   margin-bottom: 10px;
 }
 .d-flex.flex-row h4 {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-family: "stdbook-font";
 }
 .demo {
   border-bottom: 3px solid#17bebb;
   margin-bottom: -1px;
-  margin-right: 20px;
+  margin-right: 65px;
 }
 
 ul.why {
@@ -171,7 +174,8 @@ ul.why {
 #section_fit2 .images {
   height: auto;
   width: 80%;
-  margin-left: 50px;
+  margin-left: 133px;
+  margin-top: 20px;
 }
 #section_fit3 .images {
   height: auto;
