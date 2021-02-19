@@ -152,7 +152,8 @@ p.card-text.card-text1 {
 .demo {
   border-bottom: 3px solid#17bebb;
   margin-bottom: -1px;
-  margin-right: 65px;
+  /* margin-right: 65px; */
+  width: 150px;
 }
 
 ul.why {
@@ -413,7 +414,7 @@ p.card-text {
   .demo {
     border-bottom: 3px solid#17bebb;
     margin-bottom: -1px;
-    margin-right: 125px;
+    width: 200px;
   }
   ul.why {
     margin-left: 101px;
